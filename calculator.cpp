@@ -20,8 +20,8 @@ double degree(double base, int exp) {
 }
 
 int main() {
-    double num1;
-    double num2;
+    long long num1;
+    long long num2;
     char Operator;
 
     std::cout << "Введите первое число" << std::endl;
@@ -40,11 +40,7 @@ int main() {
         std::cout << "Результат: " << num1 - num2 << std::endl;
     }
     else if (Operator == '/') {
-        if (num2 != 0) {
-            std::cout << "Результат: " << num1 / num2 << std::endl;
-        } else {
-            std::cout << "Ошибка: деление на ноль!" << std::endl;
-        }
+        std::cout << "Результат: " << num1 / num2 << std::endl;
     }
     else if (Operator == '*') {
         std::cout << "Результат: " << num1 * num2 << std::endl;

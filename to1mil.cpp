@@ -7,7 +7,7 @@ int main() {
         std::cout << count << std::endl;
         count++;
 
-        if(count == 10000000) {
+        if(count == 100001) {
             break;
         }
     }
